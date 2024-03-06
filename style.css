@@ -4,13 +4,6 @@
   --clr-text: hsl(0, 0%, 80%);
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin between: 15px;
-  font-family: "Quicksand", sans-serif;
-}
-
 navbar {
   position: fix;
   display: absolute;
@@ -18,9 +11,16 @@ navbar {
 }
 
 burger {
-  position: box;
+  position: absolute;
   display: flex;
   align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin between: 15px;
+  font-family: "Quicksand", sans-serif;
 }
 
 body {
